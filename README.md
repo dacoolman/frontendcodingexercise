@@ -9,8 +9,3 @@ Example:
 	</div>
 
 Default time will be 0 and default page visits will be 0.
-
-Add CSS and JS files to make it work:
-<link rel="stylesheet" type="text/css" href="popup.css">
-
-<script src='popup.js'></script>
