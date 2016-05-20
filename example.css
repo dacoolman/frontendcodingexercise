@@ -1,0 +1,22 @@
+.buttoncontainer{
+	display: inline-block;
+	vertical-align: middle;
+}
+.custombutton{
+	height: 50px;
+	width: 50px;
+	background-color: #AAAAAA;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+.fields{
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+#email{
+	height: 20px;
+	margin-right: 5px;
+	border: 1px solid silver;
+}

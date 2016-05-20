@@ -1,26 +1,16 @@
-# Front End Coding Exercise
+This repository creates a framework for creating a popup that will appear after the time you specify and after the amount of <a> tags clicked for your Single Page Application.
 
-For this exercise, you will be developing (from scratch) a JavaScript based system to present a DHTML invitation on a website to sign up for a mailing list. This system should (at a minimum):
+Add the HTML for the popup that will render in a div with an id called "waitingpopup" and add the specified time and pagevisits for the logic for when it will appear
 
- - Be able to trigger the invitation only after the user has been on the site for x seconds.
- - Be able to trigger the invite after a certain number of pages have been visited.
- - Allow for easy customization of the invitation.
+Example:
 
-The invitation dialog itself should be DHTML based and use best practices for CSS and HTML. Your JavaScript should be clean, and use OO best practices. Please do not use any 3rd party libraries like jQuery, Angular, React, or others.
+	<div id="waitingpopup" time="1000" pagevisits="2">
+		<p class='mycustomCSSclass'>My HTML for the popup </p>
+	</div>
 
-Things to keep in mind:
+Default time will be 0 and default page visits will be 0.
 
- - Build tools: Why not use a build system to streamline your testing, minify and check your code? Any will do.
- - SASS/LESS? I think so!
- - Build for maintainability!
- - Comment your code
- - Tests? Why not!
- - If you feel like it, go above and beyond! This is an opportunity for you to show us what you can do.
- 
-# Mockup
+Add CSS and JS files to make it work:
+<link rel="stylesheet" type="text/css" href="popup.css">
 
-![Mockup](https://raw.githubusercontent.com/alexsaves/frontendcodingexercise/master/popup.png "Mockup")
-
-# Next Steps
-
-Begin by forking this library into your own github repo. Contribute your changes back to your repository. Email us at alexei.white@answers.com when you are done.
+<script src='popup.js'></script>
